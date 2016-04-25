@@ -1,762 +1,553 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>2BEB3492ACBB78EB507ADF15</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>43386640B330C4F5084DD731</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E47E76D30368D09B045E8B42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>627717704DFD80E75CEAA229</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>8863457A481E6D95D187CBFB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>8DDE70ABD8A17A531089DB4D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E0248DAFC9263015E6DA9B7C</string>
-				<string>2BEB3492ACBB78EB507ADF15</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B30A1CCE05B800FEEE0E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B801B3151CCE05B800FEEE0E</string>
-				<string>B801B3141CCE05B800FEEE0E</string>
-				<string>8DDE70ABD8A17A531089DB4D</string>
-				<string>43386640B330C4F5084DD731</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B30B1CCE05B800FEEE0E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Mackellen</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>B801B3121CCE05B800FEEE0E</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>B801B30E1CCE05B800FEEE0E</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>B801B30A1CCE05B800FEEE0E</string>
-			<key>productRefGroup</key>
-			<string>B801B3141CCE05B800FEEE0E</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>B801B3121CCE05B800FEEE0E</string>
-			</array>
-		</dict>
-		<key>B801B30E1CCE05B800FEEE0E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B801B3281CCE05B800FEEE0E</string>
-				<string>B801B3291CCE05B800FEEE0E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B801B30F1CCE05B800FEEE0E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B801B31E1CCE05B800FEEE0E</string>
-				<string>B801B31B1CCE05B800FEEE0E</string>
-				<string>B801B3181CCE05B800FEEE0E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B801B3101CCE05B800FEEE0E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C9113659B503788D37D9D247</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B801B3111CCE05B800FEEE0E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B801B3261CCE05B800FEEE0E</string>
-				<string>B801B3231CCE05B800FEEE0E</string>
-				<string>B801B3211CCE05B800FEEE0E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B801B3121CCE05B800FEEE0E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>B801B32A1CCE05B800FEEE0E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8863457A481E6D95D187CBFB</string>
-				<string>B801B30F1CCE05B800FEEE0E</string>
-				<string>B801B3101CCE05B800FEEE0E</string>
-				<string>B801B3111CCE05B800FEEE0E</string>
-				<string>EC6A8468B148265A91EFD7D7</string>
-				<string>627717704DFD80E75CEAA229</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ScienceWealthProject</string>
-			<key>productName</key>
-			<string>ScienceWealthProject</string>
-			<key>productReference</key>
-			<string>B801B3131CCE05B800FEEE0E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>B801B3131CCE05B800FEEE0E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ScienceWealthProject.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B801B3141CCE05B800FEEE0E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B801B3131CCE05B800FEEE0E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B3151CCE05B800FEEE0E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B801B3191CCE05B800FEEE0E</string>
-				<string>B801B31A1CCE05B800FEEE0E</string>
-				<string>B801B31C1CCE05B800FEEE0E</string>
-				<string>B801B31D1CCE05B800FEEE0E</string>
-				<string>B801B31F1CCE05B800FEEE0E</string>
-				<string>B801B3221CCE05B800FEEE0E</string>
-				<string>B801B3241CCE05B800FEEE0E</string>
-				<string>B801B3271CCE05B800FEEE0E</string>
-				<string>B801B3161CCE05B800FEEE0E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ScienceWealthProject</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B3161CCE05B800FEEE0E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B801B3171CCE05B800FEEE0E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B3171CCE05B800FEEE0E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B3181CCE05B800FEEE0E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B801B3171CCE05B800FEEE0E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B801B3191CCE05B800FEEE0E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B31A1CCE05B800FEEE0E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B31B1CCE05B800FEEE0E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B801B31A1CCE05B800FEEE0E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B801B31C1CCE05B800FEEE0E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B31D1CCE05B800FEEE0E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B31E1CCE05B800FEEE0E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B801B31D1CCE05B800FEEE0E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B801B31F1CCE05B800FEEE0E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B801B3201CCE05B800FEEE0E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B3201CCE05B800FEEE0E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B3211CCE05B800FEEE0E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B801B31F1CCE05B800FEEE0E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B801B3221CCE05B800FEEE0E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B3231CCE05B800FEEE0E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B801B3221CCE05B800FEEE0E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B801B3241CCE05B800FEEE0E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B801B3251CCE05B800FEEE0E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B3251CCE05B800FEEE0E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B3261CCE05B800FEEE0E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B801B3241CCE05B800FEEE0E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B801B3271CCE05B800FEEE0E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B801B3281CCE05B800FEEE0E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B801B3291CCE05B800FEEE0E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B801B32A1CCE05B800FEEE0E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B801B32B1CCE05B800FEEE0E</string>
-				<string>B801B32C1CCE05B800FEEE0E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B801B32B1CCE05B800FEEE0E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E0248DAFC9263015E6DA9B7C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ScienceWealthProject/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.zkcf.ScienceWealthProject</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B801B32C1CCE05B800FEEE0E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2BEB3492ACBB78EB507ADF15</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ScienceWealthProject/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.zkcf.ScienceWealthProject</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C9113659B503788D37D9D247</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E47E76D30368D09B045E8B42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E0248DAFC9263015E6DA9B7C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E47E76D30368D09B045E8B42</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EC6A8468B148265A91EFD7D7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>B801B30B1CCE05B800FEEE0E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B801B3181CCE05B800FEEE0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3171CCE05B800FEEE0E /* main.m */; };
+		B801B31B1CCE05B800FEEE0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B31A1CCE05B800FEEE0E /* AppDelegate.m */; };
+		B801B31E1CCE05B800FEEE0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B31D1CCE05B800FEEE0E /* ViewController.m */; };
+		B801B3211CCE05B800FEEE0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B801B31F1CCE05B800FEEE0E /* Main.storyboard */; };
+		B801B3231CCE05B800FEEE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B801B3221CCE05B800FEEE0E /* Assets.xcassets */; };
+		B801B3261CCE05B800FEEE0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B801B3241CCE05B800FEEE0E /* LaunchScreen.storyboard */; };
+		B801B3311CCE18CB00FEEE0E /* UtilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3301CCE18CB00FEEE0E /* UtilObject.m */; };
+		B801B3341CCE199C00FEEE0E /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3331CCE199C00FEEE0E /* CacheManager.m */; };
+		B801B33A1CCE1AB800FEEE0E /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3391CCE1AB800FEEE0E /* UIButton+Block.m */; };
+		B801B3491CCE1AF200FEEE0E /* MKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B33C1CCE1AF200FEEE0E /* MKTextField.m */; };
+		B801B34A1CCE1AF200FEEE0E /* UINavigationController+BATransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B33D1CCE1AF200FEEE0E /* UINavigationController+BATransitions.m */; };
+		B801B34B1CCE1AF200FEEE0E /* UIScreen+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B33E1CCE1AF200FEEE0E /* UIScreen+Frame.m */; };
+		B801B34C1CCE1AF200FEEE0E /* UIView+MKMeams.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3401CCE1AF200FEEE0E /* UIView+MKMeams.m */; };
+		B801B34D1CCE1AF200FEEE0E /* UIViewController+MKMeans.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3421CCE1AF200FEEE0E /* UIViewController+MKMeans.m */; };
+		B801B34E1CCE1AF200FEEE0E /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3441CCE1AF200FEEE0E /* UIColor+Gradient.m */; };
+		B801B34F1CCE1AF200FEEE0E /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3481CCE1AF200FEEE0E /* UIScrollView+EmptyDataSet.m */; };
+		B801B3531CCE1CC600FEEE0E /* NSDateFormatter+Make.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3521CCE1CC600FEEE0E /* NSDateFormatter+Make.m */; };
+		B801B35A1CCE1DAF00FEEE0E /* NSDate+CupertinoYankee.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3581CCE1DAF00FEEE0E /* NSDate+CupertinoYankee.m */; };
+		B801B35B1CCE1DAF00FEEE0E /* NSDate+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3591CCE1DAF00FEEE0E /* NSDate+Reporting.m */; };
+		B801B3661CCE1DCD00FEEE0E /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B35E1CCE1DCD00FEEE0E /* NSDate+Utilities.m */; };
+		B801B3671CCE1DCD00FEEE0E /* NSDate+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3611CCE1DCD00FEEE0E /* NSDate+Formatter.m */; };
+		B801B3681CCE1DCD00FEEE0E /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3631CCE1DCD00FEEE0E /* NSDate+InternetDateTime.m */; };
+		B801B3691CCE1DCD00FEEE0E /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3651CCE1DCD00FEEE0E /* NSDate+TimeAgo.m */; };
+		B801B36D1CCE1DDB00FEEE0E /* NSDateTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B801B36C1CCE1DDB00FEEE0E /* NSDateTimeAgo.bundle */; };
+		B801B37B1CCE1EFF00FEEE0E /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B3791CCE1EFF00FEEE0E /* NSDate+Extension.m */; };
+		C9113659B503788D37D9D247 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E47E76D30368D09B045E8B42 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BEB3492ACBB78EB507ADF15 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B801B3131CCE05B800FEEE0E /* ScienceWealthProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScienceWealthProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B801B3171CCE05B800FEEE0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B801B3191CCE05B800FEEE0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B801B31A1CCE05B800FEEE0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B801B31C1CCE05B800FEEE0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B801B31D1CCE05B800FEEE0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B801B3201CCE05B800FEEE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B801B3221CCE05B800FEEE0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B801B3251CCE05B800FEEE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B801B3271CCE05B800FEEE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B801B32F1CCE18CB00FEEE0E /* UtilObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UtilObject.h; path = Common/UtilObject.h; sourceTree = "<group>"; };
+		B801B3301CCE18CB00FEEE0E /* UtilObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UtilObject.m; path = Common/UtilObject.m; sourceTree = "<group>"; };
+		B801B3321CCE199C00FEEE0E /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CacheManager.h; path = Common/CacheManager.h; sourceTree = "<group>"; };
+		B801B3331CCE199C00FEEE0E /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CacheManager.m; path = Common/CacheManager.m; sourceTree = "<group>"; };
+		B801B3381CCE1AB800FEEE0E /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Block.h"; path = "Categories/UIKit/UIButton+Block.h"; sourceTree = "<group>"; };
+		B801B3391CCE1AB800FEEE0E /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Block.m"; path = "Categories/UIKit/UIButton+Block.m"; sourceTree = "<group>"; };
+		B801B33B1CCE1AF200FEEE0E /* MKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKTextField.h; path = Categories/UIKit/MKTextField.h; sourceTree = "<group>"; };
+		B801B33C1CCE1AF200FEEE0E /* MKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKTextField.m; path = Categories/UIKit/MKTextField.m; sourceTree = "<group>"; };
+		B801B33D1CCE1AF200FEEE0E /* UINavigationController+BATransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+BATransitions.m"; path = "Categories/UIKit/UINavigationController+BATransitions.m"; sourceTree = "<group>"; };
+		B801B33E1CCE1AF200FEEE0E /* UIScreen+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+Frame.m"; path = "Categories/UIKit/UIScreen+Frame.m"; sourceTree = "<group>"; };
+		B801B33F1CCE1AF200FEEE0E /* UIView+MKMeams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+MKMeams.h"; path = "Categories/UIKit/UIView+MKMeams.h"; sourceTree = "<group>"; };
+		B801B3401CCE1AF200FEEE0E /* UIView+MKMeams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+MKMeams.m"; path = "Categories/UIKit/UIView+MKMeams.m"; sourceTree = "<group>"; };
+		B801B3411CCE1AF200FEEE0E /* UIViewController+MKMeans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MKMeans.h"; path = "Categories/UIKit/UIViewController+MKMeans.h"; sourceTree = "<group>"; };
+		B801B3421CCE1AF200FEEE0E /* UIViewController+MKMeans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MKMeans.m"; path = "Categories/UIKit/UIViewController+MKMeans.m"; sourceTree = "<group>"; };
+		B801B3431CCE1AF200FEEE0E /* UIColor+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Gradient.h"; path = "Categories/UIKit/UIColor+Gradient.h"; sourceTree = "<group>"; };
+		B801B3441CCE1AF200FEEE0E /* UIColor+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Gradient.m"; path = "Categories/UIKit/UIColor+Gradient.m"; sourceTree = "<group>"; };
+		B801B3451CCE1AF200FEEE0E /* UINavigationController+BATransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+BATransitions.h"; path = "Categories/UIKit/UINavigationController+BATransitions.h"; sourceTree = "<group>"; };
+		B801B3461CCE1AF200FEEE0E /* UIScreen+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScreen+Frame.h"; path = "Categories/UIKit/UIScreen+Frame.h"; sourceTree = "<group>"; };
+		B801B3471CCE1AF200FEEE0E /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Categories/UIKit/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		B801B3481CCE1AF200FEEE0E /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Categories/UIKit/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		B801B3511CCE1CC600FEEE0E /* NSDateFormatter+Make.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+Make.h"; path = "Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.h"; sourceTree = "<group>"; };
+		B801B3521CCE1CC600FEEE0E /* NSDateFormatter+Make.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+Make.m"; path = "Categories/Foundation/NSDateFormatter/NSDateFormatter+Make.m"; sourceTree = "<group>"; };
+		B801B3581CCE1DAF00FEEE0E /* NSDate+CupertinoYankee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+CupertinoYankee.m"; path = "Categories/Foundation/NSDate/NSDate+CupertinoYankee.m"; sourceTree = "<group>"; };
+		B801B3591CCE1DAF00FEEE0E /* NSDate+Reporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Reporting.m"; path = "Categories/Foundation/NSDate/NSDate+Reporting.m"; sourceTree = "<group>"; };
+		B801B35E1CCE1DCD00FEEE0E /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Utilities.m"; path = "Categories/Foundation/NSDate/NSDate+Utilities.m"; sourceTree = "<group>"; };
+		B801B35F1CCE1DCD00FEEE0E /* NSDate+CupertinoYankee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+CupertinoYankee.h"; path = "Categories/Foundation/NSDate/NSDate+CupertinoYankee.h"; sourceTree = "<group>"; };
+		B801B3601CCE1DCD00FEEE0E /* NSDate+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Formatter.h"; path = "Categories/Foundation/NSDate/NSDate+Formatter.h"; sourceTree = "<group>"; };
+		B801B3611CCE1DCD00FEEE0E /* NSDate+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Formatter.m"; path = "Categories/Foundation/NSDate/NSDate+Formatter.m"; sourceTree = "<group>"; };
+		B801B3621CCE1DCD00FEEE0E /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+InternetDateTime.h"; path = "Categories/Foundation/NSDate/NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		B801B3631CCE1DCD00FEEE0E /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+InternetDateTime.m"; path = "Categories/Foundation/NSDate/NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+		B801B3641CCE1DCD00FEEE0E /* NSDate+Reporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Reporting.h"; path = "Categories/Foundation/NSDate/NSDate+Reporting.h"; sourceTree = "<group>"; };
+		B801B3651CCE1DCD00FEEE0E /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TimeAgo.m"; path = "Categories/Foundation/NSDate/NSDate+TimeAgo.m"; sourceTree = "<group>"; };
+		B801B36A1CCE1DDB00FEEE0E /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+TimeAgo.h"; path = "Categories/Foundation/NSDate/NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		B801B36C1CCE1DDB00FEEE0E /* NSDateTimeAgo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = NSDateTimeAgo.bundle; path = Categories/Foundation/NSDate/NSDateTimeAgo.bundle; sourceTree = "<group>"; };
+		B801B3741CCE1EB500FEEE0E /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Utilities.h"; path = "Categories/Foundation/NSDate/NSDate+Utilities.h"; sourceTree = "<group>"; };
+		B801B3791CCE1EFF00FEEE0E /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Extension.m"; path = "Categories/Foundation/NSDate/NSDate+Extension.m"; sourceTree = "<group>"; };
+		B801B37A1CCE1EFF00FEEE0E /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Extension.h"; path = "Categories/Foundation/NSDate/NSDate+Extension.h"; sourceTree = "<group>"; };
+		E0248DAFC9263015E6DA9B7C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E47E76D30368D09B045E8B42 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B801B3101CCE05B800FEEE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9113659B503788D37D9D247 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43386640B330C4F5084DD731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E47E76D30368D09B045E8B42 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DDE70ABD8A17A531089DB4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0248DAFC9263015E6DA9B7C /* Pods.debug.xcconfig */,
+				2BEB3492ACBB78EB507ADF15 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B801B30A1CCE05B800FEEE0E = {
+			isa = PBXGroup;
+			children = (
+				B801B3151CCE05B800FEEE0E /* ScienceWealthProject */,
+				B801B3141CCE05B800FEEE0E /* Products */,
+				8DDE70ABD8A17A531089DB4D /* Pods */,
+				43386640B330C4F5084DD731 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B801B3141CCE05B800FEEE0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B801B3131CCE05B800FEEE0E /* ScienceWealthProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B801B3151CCE05B800FEEE0E /* ScienceWealthProject */ = {
+			isa = PBXGroup;
+			children = (
+				B801B3351CCE1A3400FEEE0E /* Categories */,
+				B801B32E1CCE189E00FEEE0E /* Common */,
+				B801B32D1CCE187100FEEE0E /* ViewControllers */,
+				B801B3191CCE05B800FEEE0E /* AppDelegate.h */,
+				B801B31A1CCE05B800FEEE0E /* AppDelegate.m */,
+				B801B31C1CCE05B800FEEE0E /* ViewController.h */,
+				B801B31D1CCE05B800FEEE0E /* ViewController.m */,
+				B801B31F1CCE05B800FEEE0E /* Main.storyboard */,
+				B801B3221CCE05B800FEEE0E /* Assets.xcassets */,
+				B801B3241CCE05B800FEEE0E /* LaunchScreen.storyboard */,
+				B801B3271CCE05B800FEEE0E /* Info.plist */,
+				B801B3161CCE05B800FEEE0E /* Supporting Files */,
+			);
+			path = ScienceWealthProject;
+			sourceTree = "<group>";
+		};
+		B801B3161CCE05B800FEEE0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B801B3171CCE05B800FEEE0E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B801B32D1CCE187100FEEE0E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B801B32E1CCE189E00FEEE0E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B801B32F1CCE18CB00FEEE0E /* UtilObject.h */,
+				B801B3301CCE18CB00FEEE0E /* UtilObject.m */,
+				B801B3321CCE199C00FEEE0E /* CacheManager.h */,
+				B801B3331CCE199C00FEEE0E /* CacheManager.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		B801B3351CCE1A3400FEEE0E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B801B3371CCE1A5300FEEE0E /* UIKit */,
+				B801B3361CCE1A4C00FEEE0E /* Foundation */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		B801B3361CCE1A4C00FEEE0E /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B801B3541CCE1D0C00FEEE0E /* NSDate */,
+				B801B3501CCE1C8400FEEE0E /* NSDateFormatter */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		B801B3371CCE1A5300FEEE0E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B801B33B1CCE1AF200FEEE0E /* MKTextField.h */,
+				B801B33C1CCE1AF200FEEE0E /* MKTextField.m */,
+				B801B3381CCE1AB800FEEE0E /* UIButton+Block.h */,
+				B801B3391CCE1AB800FEEE0E /* UIButton+Block.m */,
+				B801B33F1CCE1AF200FEEE0E /* UIView+MKMeams.h */,
+				B801B3401CCE1AF200FEEE0E /* UIView+MKMeams.m */,
+				B801B3461CCE1AF200FEEE0E /* UIScreen+Frame.h */,
+				B801B33E1CCE1AF200FEEE0E /* UIScreen+Frame.m */,
+				B801B3431CCE1AF200FEEE0E /* UIColor+Gradient.h */,
+				B801B3441CCE1AF200FEEE0E /* UIColor+Gradient.m */,
+				B801B3471CCE1AF200FEEE0E /* UIScrollView+EmptyDataSet.h */,
+				B801B3481CCE1AF200FEEE0E /* UIScrollView+EmptyDataSet.m */,
+				B801B3411CCE1AF200FEEE0E /* UIViewController+MKMeans.h */,
+				B801B3421CCE1AF200FEEE0E /* UIViewController+MKMeans.m */,
+				B801B3451CCE1AF200FEEE0E /* UINavigationController+BATransitions.h */,
+				B801B33D1CCE1AF200FEEE0E /* UINavigationController+BATransitions.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		B801B3501CCE1C8400FEEE0E /* NSDateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				B801B3511CCE1CC600FEEE0E /* NSDateFormatter+Make.h */,
+				B801B3521CCE1CC600FEEE0E /* NSDateFormatter+Make.m */,
+			);
+			name = NSDateFormatter;
+			sourceTree = "<group>";
+		};
+		B801B3541CCE1D0C00FEEE0E /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				B801B3741CCE1EB500FEEE0E /* NSDate+Utilities.h */,
+				B801B35E1CCE1DCD00FEEE0E /* NSDate+Utilities.m */,
+				B801B37A1CCE1EFF00FEEE0E /* NSDate+Extension.h */,
+				B801B3791CCE1EFF00FEEE0E /* NSDate+Extension.m */,
+				B801B3601CCE1DCD00FEEE0E /* NSDate+Formatter.h */,
+				B801B3611CCE1DCD00FEEE0E /* NSDate+Formatter.m */,
+				B801B3641CCE1DCD00FEEE0E /* NSDate+Reporting.h */,
+				B801B3591CCE1DAF00FEEE0E /* NSDate+Reporting.m */,
+				B801B3621CCE1DCD00FEEE0E /* NSDate+InternetDateTime.h */,
+				B801B3631CCE1DCD00FEEE0E /* NSDate+InternetDateTime.m */,
+				B801B35F1CCE1DCD00FEEE0E /* NSDate+CupertinoYankee.h */,
+				B801B3581CCE1DAF00FEEE0E /* NSDate+CupertinoYankee.m */,
+				B801B36A1CCE1DDB00FEEE0E /* NSDate+TimeAgo.h */,
+				B801B3651CCE1DCD00FEEE0E /* NSDate+TimeAgo.m */,
+				B801B36C1CCE1DDB00FEEE0E /* NSDateTimeAgo.bundle */,
+			);
+			name = NSDate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B801B3121CCE05B800FEEE0E /* ScienceWealthProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B801B32A1CCE05B800FEEE0E /* Build configuration list for PBXNativeTarget "ScienceWealthProject" */;
+			buildPhases = (
+				8863457A481E6D95D187CBFB /* Check Pods Manifest.lock */,
+				B801B30F1CCE05B800FEEE0E /* Sources */,
+				B801B3101CCE05B800FEEE0E /* Frameworks */,
+				B801B3111CCE05B800FEEE0E /* Resources */,
+				EC6A8468B148265A91EFD7D7 /* Embed Pods Frameworks */,
+				627717704DFD80E75CEAA229 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScienceWealthProject;
+			productName = ScienceWealthProject;
+			productReference = B801B3131CCE05B800FEEE0E /* ScienceWealthProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B801B30B1CCE05B800FEEE0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mackellen;
+				TargetAttributes = {
+					B801B3121CCE05B800FEEE0E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B801B30E1CCE05B800FEEE0E /* Build configuration list for PBXProject "ScienceWealthProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B801B30A1CCE05B800FEEE0E;
+			productRefGroup = B801B3141CCE05B800FEEE0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B801B3121CCE05B800FEEE0E /* ScienceWealthProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B801B3111CCE05B800FEEE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B801B3261CCE05B800FEEE0E /* LaunchScreen.storyboard in Resources */,
+				B801B36D1CCE1DDB00FEEE0E /* NSDateTimeAgo.bundle in Resources */,
+				B801B3231CCE05B800FEEE0E /* Assets.xcassets in Resources */,
+				B801B3211CCE05B800FEEE0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		627717704DFD80E75CEAA229 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8863457A481E6D95D187CBFB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6A8468B148265A91EFD7D7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B801B30F1CCE05B800FEEE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B801B3671CCE1DCD00FEEE0E /* NSDate+Formatter.m in Sources */,
+				B801B3311CCE18CB00FEEE0E /* UtilObject.m in Sources */,
+				B801B3341CCE199C00FEEE0E /* CacheManager.m in Sources */,
+				B801B31E1CCE05B800FEEE0E /* ViewController.m in Sources */,
+				B801B3681CCE1DCD00FEEE0E /* NSDate+InternetDateTime.m in Sources */,
+				B801B35A1CCE1DAF00FEEE0E /* NSDate+CupertinoYankee.m in Sources */,
+				B801B34B1CCE1AF200FEEE0E /* UIScreen+Frame.m in Sources */,
+				B801B34C1CCE1AF200FEEE0E /* UIView+MKMeams.m in Sources */,
+				B801B3491CCE1AF200FEEE0E /* MKTextField.m in Sources */,
+				B801B33A1CCE1AB800FEEE0E /* UIButton+Block.m in Sources */,
+				B801B34E1CCE1AF200FEEE0E /* UIColor+Gradient.m in Sources */,
+				B801B31B1CCE05B800FEEE0E /* AppDelegate.m in Sources */,
+				B801B35B1CCE1DAF00FEEE0E /* NSDate+Reporting.m in Sources */,
+				B801B3181CCE05B800FEEE0E /* main.m in Sources */,
+				B801B37B1CCE1EFF00FEEE0E /* NSDate+Extension.m in Sources */,
+				B801B3691CCE1DCD00FEEE0E /* NSDate+TimeAgo.m in Sources */,
+				B801B34A1CCE1AF200FEEE0E /* UINavigationController+BATransitions.m in Sources */,
+				B801B3661CCE1DCD00FEEE0E /* NSDate+Utilities.m in Sources */,
+				B801B34D1CCE1AF200FEEE0E /* UIViewController+MKMeans.m in Sources */,
+				B801B34F1CCE1AF200FEEE0E /* UIScrollView+EmptyDataSet.m in Sources */,
+				B801B3531CCE1CC600FEEE0E /* NSDateFormatter+Make.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B801B31F1CCE05B800FEEE0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B801B3201CCE05B800FEEE0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B801B3241CCE05B800FEEE0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B801B3251CCE05B800FEEE0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B801B3281CCE05B800FEEE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B801B3291CCE05B800FEEE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B801B32B1CCE05B800FEEE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0248DAFC9263015E6DA9B7C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScienceWealthProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkcf.ScienceWealthProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B801B32C1CCE05B800FEEE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BEB3492ACBB78EB507ADF15 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScienceWealthProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkcf.ScienceWealthProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B801B30E1CCE05B800FEEE0E /* Build configuration list for PBXProject "ScienceWealthProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B801B3281CCE05B800FEEE0E /* Debug */,
+				B801B3291CCE05B800FEEE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B801B32A1CCE05B800FEEE0E /* Build configuration list for PBXNativeTarget "ScienceWealthProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B801B32B1CCE05B800FEEE0E /* Debug */,
+				B801B32C1CCE05B800FEEE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B801B30B1CCE05B800FEEE0E /* Project object */;
+}
